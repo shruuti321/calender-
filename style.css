@@ -1,0 +1,89 @@
+*{  
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image: url("phto.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 70rem 50rem ;
+    
+}
+
+.calender{
+    width:25rem;
+    height:35rem;
+    background-color:rgb(10, 10, 80);
+    border-radius:25px;
+    /*background-image: url("mor.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 25rem 35rem*/;
+    
+}
+.header{
+    height:6rem;
+    display:flex;
+    background-color:rgb(230, 122, 82);
+    justify-content:space-between;
+    align-items:center;
+    text-align:center;
+    border-radius:10px;
+}
+
+
+.days{
+    display:flex;
+    font-size:22px;
+    color:white;
+    font-weight: bold;
+
+    height:4rem;
+    padding:0 0.4rem;
+    justify-content:space-between;
+    align-items:center;
+    text-align:center;
+}
+.dates{
+   
+   
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:0.2rem;
+
+}
+.dates div{
+    
+    font-size:1.3rem;
+    height:4.5rem;
+    width:calc(28rem/9);
+    justify-content:space-between;
+    align-items:center;
+    text-align:center;
+}
+.dates div:hover{
+    background-color:rgb(9, 9, 63);
+    border:0.1rem solid white;
+}
+.prev-date,
+.next-date{
+    opacity:0.5;
+}
+.today{
+    background-color:rgb(231, 88, 36);
+}
+
+.today div:hover{
+    background-color:rgb(170, 49, 5);
+}
